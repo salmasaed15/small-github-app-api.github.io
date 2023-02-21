@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
+    
+}
+:root{
+    --main-color:#b3b3b3;
+    --second-color:#737373;
+    --diff-color:#ffcc00;
+}
+*::selection{
+    background-color: #ffcc00;
+    color: #FFF;
+}
+body{
+    background-color: #f2f2f2;
+}
+/* start nav */
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: #ffcc00;
+    color: #737373;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav .title{
+    padding-top: 10px;
+}
+/* end nav */
+/* start content */
+.content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+/* end content */
+/* start left */
+.left{
+    width: 35%;
+    margin: 20px 30px;
+}
+.left .card{
+    background-color:#737373;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.card h1{
+    background-color: #ffcc00;
+    color: #737373;
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+}
+.card form{
+    margin: 20px;
+    
+}
+.card form label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card form input{
+    width: 386px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    margin-bottom: 10px;
+}
+.card form button{
+    width: 386px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #737373;
+}
+.card .btns{
+    margin: 15px;
+}
+.card .btns button{
+    width: 398px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #737373;
+}
+.card  button:hover{
+    font-size: 25px;
+}
+/* end left */
+/* start right */
+.right{
+    width:55%;
+    background-color: #737373;
+    color: #ffcc00;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+.right h2{
+    background-color: #ffcc00;
+    color: #737373;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+}
+.right #repos{
+    width: 651px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    margin:15px 10px;
+    /* height: 20px; */
+}
+
+.right #repos .repo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #737373;
+    margin: 10px 0;
+}
+
+/* end right */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>small github project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start header -->
+    <section class="nav">
+        <div class="title">
+            GitHub App
+        </div>
+    </section>
+    <section class="content">
+        <div class="left">
+            <div class="card">
+                <h1>Fetch Repos By Username</h1>
+                <form action="" id="user-form">
+                    <label for="">Username</label>
+                    <br>
+                    <input type="text" id="username" placeholder="Enter Your Name">
+                    <br>
+                    <button type="supmit">Get User</button>
+                </form>
+            </div>
+            <div class="card">
+                <h1>Fetch Repos By Language</h1>
+                <div class="btns language">
+                    <button data-lng="JAVASCRIPT">JAVASCRIPT</button>
+                    <button data-lng="HTML">HTML</button>
+                    <button data-lng="CSS">CSS</button>
+                    <button data-lng="PHP">PHP</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h2 id="search-term">username</h2>
+            <div id="repos">
+                <!-- <a href="#" class="repo-item">
+                    <span>name of repo</span>
+                    <span>number of issue</span>
+                </a> -->
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+    <script src="script.js"></script>
+</body>
+</html>
